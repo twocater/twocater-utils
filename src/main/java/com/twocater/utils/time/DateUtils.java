@@ -10,7 +10,7 @@ import java.util.Date;
  */
 public class DateUtils {
 
-    private static String currentTime() {
+    public static String currentTime() {
         return DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss");
     }
 }
